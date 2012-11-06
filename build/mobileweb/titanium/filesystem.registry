@@ -1,10 +1,10 @@
-ts	1352202515000
+ts	1352209996000
 Default-Landscape.jpg	36232
 Default-Portrait.jpg	28479
 Default.jpg	17184
 KS_nav_ui.png	1158
 KS_nav_views.png	1074
-app.js	1670
+app.js	1796
 appicon.png	19109
 apple-touch-icon-114x114-precomposed.png	15820
 apple-touch-icon-57x57-precomposed.png	6790
@@ -14,6 +14,7 @@ favicon.ico	1068
 images
 	KS_nav_ui.png	1158
 	KS_nav_views.png	1074
+	stslogo.jpg	19774
 mobileweb
 	appicon.png	19109
 	apple_startup_images
@@ -355,8 +356,9 @@ titanium.css	39528
 titanium.js	516453
 ui
 	common
-		ApplicationTabGroup.js	615
+		ApplicationTabGroup.js	817
 	handheld
 		ApplicationWindow.js	573
 	tablet
-		WelcomeWindow.js	755
+		RegisterWindow.js	1335
+		WelcomeWindow.js	945

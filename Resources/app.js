@@ -28,8 +28,11 @@ if (Ti.version < 1.8 ) {
 	var isTablet = osname === 'ipad' || (osname === 'android' && (width > 899 || height > 899));
 	
 	var Window;
+	var Window2;
+	
 	if (isTablet) {
 		Window = require('ui/tablet/WelcomeWindow');
+		Window2 = require("ui/tablet/RegisterWindow");
 	}
 	else {
 		
@@ -37,8 +40,9 @@ if (Ti.version < 1.8 ) {
 	//Window = require('ui/handheld/ApplicationWindow');	
 	//remember to remove the following line, it is only to be able to tablet test!!
 	Window = require("ui/tablet/WelcomeWindow");
+	Window2 = require("ui/tablet/RegisterWindow");
 	}
 
 	var ApplicationTabGroup = require('ui/common/ApplicationTabGroup');
-	new ApplicationTabGroup(Window).open();
+	new ApplicationTabGroup(Window, Window2).open();
 })();

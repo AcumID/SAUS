@@ -1,0 +1,12 @@
+Logfile initialized
+[INFO] logfile = C:\Users\Jonas\My Documents\Titanium_Studio_Workspace\SAUS\build.log
+[DEBUG] C:\Users\Jonas\AppData\Roaming\Titanium\mobilesdk\win32\2.1.3.GA\android\builder.py emulator SAUS C:\Users\Jonas\AppData\Local\Android\android-sdk\ C:\Users\Jonas\My Documents\Titanium_Studio_Workspace\SAUS com.wordpress.acumid.saus 7 HVGA
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: C:\Users\Jonas\AppData\Local\Android\android-sdk\tools\emulator.exe
+[DEBUG] SDCard: C:\Users\Jonas\.titanium\android2.sdcard
+[DEBUG] AVD ID: 7
+[DEBUG] AVD Skin: HVGA
+[DEBUG] SDK: C:\Users\Jonas\AppData\Local\Android\android-sdk
+[DEBUG] C:\Users\Jonas\AppData\Local\Android\android-sdk\tools\emulator.exe -avd titanium_7_HVGA -port 5560 -sdcard "C:\Users\Jonas\.titanium\titanium_7_HVGA.sdcard" -logcat *:d,*,TiAPI:V -no-boot-anim -partition-size 128
+[DEBUG] signal caught: 3
+[DEBUG] calling emulator kill on 3236
